@@ -712,6 +712,11 @@ footer .container {
   bottom: -11px;
   left: 1%;
 }
+.comment h6,
+.comment-desc h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
 /* heartbeat team */
 .heartbeat-team-wrapper {
   display: flex;
