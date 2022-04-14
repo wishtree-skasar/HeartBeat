@@ -43,6 +43,7 @@ img {
   color: #22c6f9;
   border-radius: 10px;
   border: 1px solid #22c6f9;
+  cursor: pointer;
 }
 .btn-2 {
   background: #fc3990;
@@ -60,6 +61,7 @@ img {
   border-radius: 10px;
   border: none;
   border: 1px solid #fc3990;
+  cursor: pointer;
 }
 /* navbar */
 .mob-influe-brands {
@@ -347,9 +349,13 @@ img {
   display: flex;
 }
 .brand-influencer-info {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 53%;
+  max-width: 53%;
   padding-right: 62px;
+}
+.brand-img {
+  flex: 0 0 47%;
+  max-width: 47%;
 }
 .brand-survey {
   display: flex;
@@ -625,9 +631,10 @@ footer .container {
   padding-top: 50px;
 }
 .share-info {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 53%;
+  max-width: 53%;
   padding: 50px 30px 0 0;
+  padding-right: 75px;
 }
 .share-info h3,
 .influencer-info h3,
@@ -635,8 +642,8 @@ footer .container {
   font-size: 30px;
 }
 .share-img {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 47%;
+  max-width: 47%;
   text-align: right;
 }
 .share-img img {
@@ -763,19 +770,26 @@ footer .container {
   color: black;
   border-radius: 10px;
 }
+.btn-3:hover {
+  /* border: 1px solid black; */
+  color: #fc3990;
+  font-weight: bold;
+  padding: 11px 18px;
+  cursor: pointer;
+}
 /* ---------Influencers page------------------- */
 .mobile-app-wrapper {
   display: flex;
   padding-top: 50px;
 }
 .mobile-app-info {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-right: 51px;
+  flex: 0 0 53%;
+  max-width: 53%;
+  padding-right: 75px;
 }
 .mobile-app-img {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 47%;
+  max-width: 47%;
   text-align: right;
 }
 .creativity-img,
@@ -807,13 +821,13 @@ footer .container {
   padding-top: 90px;
 }
 .post-info {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-left: 50px;
+  flex: 0 0 53%;
+  max-width: 53%;
+  padding-left: 75px;
 }
 .post-img {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 47%;
+  max-width: 47%;
 }
 .post-info h3 {
   font-size: 30px;
@@ -847,9 +861,9 @@ footer .container {
   justify-content: center;
 }
 .about-fit-info {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-left: 50px;
+  flex: 0 0 53%;
+  max-width: 53%;
+  padding-left: 75px;
 }
 .about-fit-info h3 {
   font-size: 30px;
@@ -858,8 +872,8 @@ footer .container {
   font-size: 15px;
 }
 .about-fit-img {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 47%;
+  max-width: 47%;
 }
 .creativity-wrapper {
   display: flex;
@@ -889,13 +903,13 @@ footer .container {
   justify-content: center;
 }
 .brand-compaign-img {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 47%;
+  max-width: 47%;
 }
 .brand-compaign-info {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-left: 50px;
+  flex: 0 0 53%;
+  max-width: 53%;
+  padding-left: 75px;
 }
 .brand-compaign-info h3 {
   font-size: 30px;
@@ -1179,13 +1193,13 @@ footer .container {
   padding-top: 90px;
 }
 .influencer-marketing-info {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-right: 20px;
+  flex: 0 0 53%;
+  max-width: 53%;
+  padding-right: 75px;
 }
 .influencer-marketing-img {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 47%;
+  max-width: 47%;
   text-align: right;
 }
 .influencer-marketing-info p {
@@ -1206,13 +1220,13 @@ footer .container {
   padding-top: 80px;
 }
 .hottest-platform-img {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 47%;
+  max-width: 47%;
 }
 .hottest-platform-info {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-left: 50px;
+  flex: 0 0 53%;
+  max-width: 53%;
+  padding-left: 75px;
 }
 .hottest-platform-info img {
   float: left;
@@ -1317,13 +1331,13 @@ footer .container {
   justify-content: center;
 }
 .survey-tool-img {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 47%;
+  max-width: 47%;
 }
 .survey-tool-info {
-  flex: 0 0 50%;
-  max-width: 50%;
-  padding-left: 50px;
+  flex: 0 0 53%;
+  max-width: 53%;
+  padding-left: 75px;
 }
 .user-content {
   display: flex;
@@ -1400,6 +1414,7 @@ footer .container {
 .pricing-heading {
   text-align: center;
   padding-top: 70px;
+  padding-bottom: 30px;
 }
 .pricing-heading p {
   width: 620px;
@@ -1505,6 +1520,142 @@ footer .container {
     padding: 0 15px;
   }
 }
+@media (max-width: 1020px) {
+  .movements-wrapper,
+  .influencer-voice,
+  .paid-post-wrapper,
+  .about-fit-wrapper,
+  .creativity-wrapper,
+  .brand-compaigns-wrapper,
+  .collaborate-wrapper {
+    padding-top: 50px;
+  }
+  .share-wrapper,
+  .influencer-wrapper,
+  .movements-wrapper,
+  .mobile-app-wrapper,
+  .paid-post-wrapper,
+  .about-fit-wrapper,
+  .creativity-wrapper,
+  .brand-compaigns-wrapper,
+  .collaborate-wrapper {
+    flex-wrap: wrap;
+  }
+  .share-info,
+  .influencer-info,
+  .movement-info,
+  .mobile-app-info,
+  .post-info,
+  .about-fit-info,
+  .creativity-info,
+  .brand-compaign-info,
+  .collaborate-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+    order: 2;
+    padding-right: 0;
+    padding-top: 25px;
+    padding-left: 0;
+  }
+  .share-img,
+  .influencer-img,
+  .movement-img,
+  .mobile-app-img,
+  .post-img,
+  .about-fit-img,
+  .creativity-img,
+  .brand-compaign-img,
+  .collaborate-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .share-img img,
+  .influencer-img img,
+  .movement-img img,
+  .mobile-app-img img,
+  .post-img img,
+  .about-fit-img img,
+  .creativity-img img,
+  .brand-compaign-img img,
+  .collaborate-img img {
+    width: 75%;
+  }
+  /* brands& service page */
+  .hottest-platform,
+  .outreach-email-wrapper,
+  .compaign-platform-wrapper,
+  .survey-tool,
+  .user-content,
+  .brand-analytics,
+  .influencer-tech {
+    padding-top: 50px;
+  }
+  .influencer-marketing-wrapper,
+  .brand-details-wrapper,
+  .hottest-platform,
+  .outreach-email-wrapper,
+  .compaign-platform-wrapper,
+  .lose-money-wrapper,
+  .survey-tool,
+  .user-content,
+  .brand-analytics,
+  .influencer-tech {
+    flex-wrap: wrap;
+  }
+  .brand-details-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+  .influencer-marketing-info,
+  .hottest-platform-info,
+  .outreach-email-info,
+  .compaign-platform-info,
+  .lose-money-info,
+  .survey-tool-info,
+  .user-content-info,
+  .brand-analytics-info,
+  .influencer-tech-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    max-width: 75%;
+    margin: 0 auto;
+    order: 2;
+    padding-right: 0;
+    padding-top: 25px;
+    padding-left: 0;
+  }
+  .influencer-marketing-img,
+  .hottest-platform-img,
+  .outreach-email-img,
+  .compaign-platform-img,
+  .lose-money-img,
+  .survey-tool-img,
+  .user-content-img,
+  .brand-analytics-img,
+  .influencer-tech-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .influencer-marketing-img img,
+  .hottest-platform-img img,
+  .outreach-email-img img,
+  .compaign-platform-img img,
+  .lose-money-img img,
+  .survey-tool-img img,
+  .user-content-img img,
+  .brand-analytics-img img,
+  .influencer-tech-img img {
+    width: 75%;
+  }
+  .brand-details {
+    flex: 0 0 50%;
+    max-width: 40%;
+  }
+}
 @media (max-width: 1007px) {
   .rise-wrapper {
     flex-wrap: wrap;
@@ -1578,6 +1729,31 @@ footer .container {
 @media (max-width: 954px) {
   .links li {
     padding: 0 10px;
+  }
+  .case-study {
+    flex: 0 0 calc(50% - 15px);
+    max-width: 50%;
+  }
+  .case-studies-wrapper {
+    padding: 0 30px;
+  }
+  .case-studies-wrapper .case-study:nth-child(1),
+  .case-studies-wrapper .case-study:nth-child(3),
+  .case-studies-wrapper .case-study:nth-child(5) {
+    margin-left: 0;
+  }
+  .pricing-wrapper {
+    flex-wrap: wrap;
+    padding: 0 30px;
+  }
+  .pricing {
+    flex: 0 0 calc(50% - 15px);
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+  .pricing-wrapper .pricing:nth-child(1),
+  .pricing-wrapper .pricing:nth-child(3) {
+    margin-left: 0;
   }
 }
 @media (max-width: 922px) {
@@ -1672,6 +1848,17 @@ footer .container {
   .banner-info h1,
   .banner-info p {
     max-width: 100%;
+  }
+  .team-bus-media-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 30px;
+    padding-top: 50px;
+  }
+  .team-bus-media {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 30px;
   }
 }
 @media (max-width: 836px) {
@@ -1806,6 +1993,49 @@ footer .container {
   .advantage-tiktok .container,
   .instagram .container {
     padding: 0 30px;
+  }
+
+  /* about page */
+  .team {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .share-info,
+  .influencer-info,
+  .movement-info {
+    max-width: 90%;
+  }
+  .share-img img,
+  .influencer-img img,
+  .movement-img img {
+    width: 90%;
+  }
+  .comment {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0 30px;
+  }
+  /* influencer page */
+  .mobile-app-info,
+  .post-info,
+  .about-fit-info,
+  .creativity-info,
+  .brand-compaign-info,
+  .collaborate-info {
+    max-width: 90%;
+  }
+  .mobile-app-img img,
+  .post-img img,
+  .about-fit-img img,
+  .creativity-img img,
+  .brand-compaign-img img,
+  .collaborate-img img {
+    width: 90%;
+  }
+  .accordion-wrapper {
+    margin: 0 30px;
+    margin-bottom: 10px;
   }
 }
 
