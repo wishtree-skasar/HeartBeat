@@ -2,8 +2,6 @@ $(function () {
   $("ul > li > a").each(function () {
     var url = window.location.href;
     var href = $(this).prop("href");
-    console.log(url);
-    console.log(href);
     if (url == href) {
       $(this).css({ color: "#FC3990", "text-decoration": "underline" });
     }
@@ -45,4 +43,21 @@ $(function () {
     dots: false,
     navText: ["<", ">"],
   });
+});
+
+const url = "http://localhost:3000";
+const button = document.getElementById("contactbtn");
+button.addEventListener("click", function (e) {
+  console.log("button was clicked");
+  fetch(url, { method: "POST" })
+    .then(function (response) {
+      if (response.ok) {
+        console.log("Click was recorded");
+        return;
+      }
+      throw new Error("Request failed.");
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
 });

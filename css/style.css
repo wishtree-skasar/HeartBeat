@@ -9,6 +9,11 @@ body {
 p {
   line-height: 1.4rem;
 }
+a {
+  transition: all 0.5s;
+  position: relative;
+}
+
 input:focus {
   border: none;
   outline: none;
@@ -38,7 +43,7 @@ img {
 }
 .btn-1:hover {
   background: #fff;
-  padding: 14px 19px;
+  padding: 13px 19px;
   text-decoration: none;
   color: #22c6f9;
   border-radius: 10px;
@@ -55,7 +60,7 @@ img {
 }
 .btn-2:hover {
   background: #fff;
-  padding: 14px 19px;
+  padding: 13px 19px;
   text-decoration: none;
   color: #fc3990;
   border-radius: 10px;
@@ -123,6 +128,10 @@ img {
   padding: 8px 20px;
   color: #fff;
 }
+.links .btn-1:hover {
+  padding: 8px 20px;
+  color: #22c6f9;
+}
 .influe-brands {
   font-size: 24px;
   font-weight: 900;
@@ -183,6 +192,9 @@ img {
 .banner-info {
   flex: 0 0 45%;
   max-width: 45%;
+}
+.banner-info .btn-1 {
+  margin-right: 10px;
 }
 .home-banner {
   position: relative;
@@ -254,6 +266,7 @@ img {
 .turnkey-platform {
   flex: 0 0 50%;
   max-width: 50%;
+  padding-top: 22px;
 }
 .campaigns-tracking {
   max-width: 50%;
@@ -292,7 +305,11 @@ img {
 .creators-platform-info a {
   color: #22c6f9;
 }
-
+.creators-platform-info a:hover {
+}
+.campaigns-tracking a {
+  text-decoration: none;
+}
 .advantage-tiktok h5 {
   font-size: 30px;
   font-weight: bold;
@@ -431,7 +448,7 @@ img {
 .instagram img {
   position: absolute;
   right: -100px;
-  top: 20px;
+  top: -11px;
 }
 .instagram h4 {
   font-size: 30px;
@@ -458,6 +475,9 @@ img {
   padding: 0;
   position: relative;
 }
+.owl-theme .owl-nav [class*="owl-"] {
+  padding: 4px 0;
+}
 .owl-theme .owl-nav [class*="owl-prev"]:hover,
 .owl-theme .owl-nav [class*="owl-next"]:hover {
   background: none;
@@ -466,7 +486,7 @@ img {
 .owl-theme .owl-nav [class*="owl-prev"] {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -10px;
   font-size: 40px;
   color: black;
   background: none;
@@ -474,7 +494,7 @@ img {
 .owl-theme .owl-nav [class*="owl-next"] {
   position: absolute;
   top: 0;
-  right: 0;
+  right: -10px;
   font-size: 40px;
   color: black;
   background: none;
@@ -506,7 +526,7 @@ img {
   align-content: center;
 }
 .clients img {
-  margin: 20px 18px;
+  margin: 20px 0;
 }
 .logo {
   text-align: center;
@@ -716,8 +736,8 @@ footer .container {
   border-left: 19px solid transparent;
   border-right: 19px solid transparent;
   position: absolute;
-  bottom: -11px;
-  left: 1%;
+  bottom: -14px;
+  left: 2%;
 }
 .comment h6,
 .comment-desc h5 {
@@ -758,11 +778,14 @@ footer .container {
   background: #fc3990;
   text-align: center;
   color: white;
-  padding: 50px 0;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 .career .container h3 {
+  padding: 0;
+  margin: 0;
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 31px;
 }
 .btn-3 {
   padding: 11px 20px;
@@ -954,12 +977,14 @@ footer .container {
   color: black;
   cursor: pointer;
   padding: 18px;
+  padding-right: 30px;
   width: 100%;
   text-align: left;
   font-size: 15px;
   background: #fff;
   font-weight: 900;
   margin: 0 auto;
+  position: relative;
 }
 .accordion:after {
   content: "\002B";
@@ -968,6 +993,10 @@ footer .container {
   float: right;
   margin-left: 5px;
   font-size: 25px;
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  transform: translate(-50%, -50%);
 }
 
 .activate:after {
@@ -1298,6 +1327,7 @@ footer .container {
   height: 34px;
   margin: 0 auto;
   font-size: 13px;
+  padding-bottom: 50px;
 }
 .team-bus-media-wrapper {
   display: flex;
@@ -1307,6 +1337,9 @@ footer .container {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   padding-right: 50px;
+}
+.team-bus-media:last-child {
+  padding-right: 0;
 }
 .lose-money-wrapper {
   display: flex;
@@ -1521,6 +1554,18 @@ footer .container {
   }
 }
 @media (max-width: 1020px) {
+  .pricing-heading {
+    padding-top: 50px;
+  }
+  .brand-analytics-img {
+    padding-top: 10px;
+  }
+  .brand-details-wrapper {
+    padding-top: 40px;
+  }
+  .accordion-section h3 {
+    padding-top: 20px;
+  }
   .movements-wrapper,
   .influencer-voice,
   .paid-post-wrapper,
@@ -1528,7 +1573,7 @@ footer .container {
   .creativity-wrapper,
   .brand-compaigns-wrapper,
   .collaborate-wrapper {
-    padding-top: 50px;
+    padding-top: 30px;
   }
   .share-wrapper,
   .influencer-wrapper,
@@ -1556,7 +1601,7 @@ footer .container {
     margin: 0 auto;
     order: 2;
     padding-right: 0;
-    padding-top: 25px;
+    padding-top: 0;
     padding-left: 0;
   }
   .share-img,
@@ -1585,13 +1630,18 @@ footer .container {
   }
   /* brands& service page */
   .hottest-platform,
-  .outreach-email-wrapper,
   .compaign-platform-wrapper,
   .survey-tool,
   .user-content,
   .brand-analytics,
   .influencer-tech {
     padding-top: 50px;
+  }
+  .outreach-email-wrapper {
+    padding-top: 20px;
+  }
+  .free-trial {
+    padding-top: 40px;
   }
   .influencer-marketing-wrapper,
   .brand-details-wrapper,
@@ -1716,11 +1766,18 @@ footer .container {
   .service-clients {
     display: none;
   }
+  .post-info h3 {
+    padding-top: 25px;
+  }
 }
 @media (max-width: 1007px) {
+  .influencers {
+    padding-top: 60px;
+    padding-bottom: 90px;
+  }
   .rise-wrapper {
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 30px;
   }
   .tiktok-img {
     flex: 0 0 100%;
@@ -1830,8 +1887,17 @@ footer .container {
   .owl-item.active {
     padding: 0 30px;
   }
+  .clients h3 {
+    padding-top: 0;
+  }
 }
 @media (max-width: 889px) {
+  .influencer-marketing-wrapper {
+    padding-top: 60px;
+  }
+  nav .container {
+    padding: 0;
+  }
   .mob-influe-brands {
     display: block;
     width: 100%;
@@ -2187,8 +2253,59 @@ footer .container {
     max-width: 90%;
   }
 }
-
+@media (max-width: 523px) {
+  .creators-platform-img img {
+    display: block !important;
+    margin: 0 auto;
+  }
+  .creators-platform-img img:last-child {
+    margin-top: 100px;
+  }
+}
 @media (max-width: 488px) {
+  .heartbeat-team .container > h3 {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 22px;
+  }
+  .instagram {
+    padding-bottom: 0;
+  }
+
+  .banner-info h1,
+  .blogs h3,
+  .contact-form h3,
+  .share-info h3,
+  .influencer-info h3,
+  .movement-info h3,
+  .career .container h3,
+  .ambassadors .container h3,
+  .mobile-app-info h3,
+  .post-info h3,
+  .about-fit-info h3,
+  .creativity-info h3,
+  .brand-compaign-info h3,
+  .collaborate-info h3,
+  .accordion-section h3 {
+    font-size: 22px;
+  }
+  .blogs {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  .clients h3 {
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  .cretors-demands h3,
+  .advantage-tiktok h5,
+  .influencer-wrapper-info h6,
+  .brand-influencer-info h3,
+  .advantage-info h4,
+  .instagram h4 {
+    font-size: 22px;
+  }
   .brand-survey {
     flex-wrap: wrap;
   }
@@ -2223,6 +2340,10 @@ footer .container {
     flex: 0 0 100%;
     max-width: 100%;
     padding-right: 0;
+  }
+  .footer p {
+    max-width: 200px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 354px) {
